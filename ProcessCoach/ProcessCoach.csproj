@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.6.0" />
+    <PackageReference Include="Microsoft.ML.DataView" Version="1.6.0" />
+    <PackageReference Include="alglib.net" Version="3.17.0" />
+    <PackageReference Include="LpSolveDotNet" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Solver.Foundation" Version="3.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataModels\" />
+    <Folder Include="Common\" />
+    <Folder Include="DataModels\DNA\" />
+    <Folder Include="Predictor\" />
+    <Folder Include="Trainers\" />
+  </ItemGroup>
+</Project>
